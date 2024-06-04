@@ -18,10 +18,10 @@ export function Navigation() {
           <span className="logo-text-right">ROSA</span>
         </div>
         <div className="nav-links-container">
-          <a className="nav-link">DOCES</a>
-          <a className="nav-link">BOLOS</a>
-          <a className="nav-link">SALGADOS</a>
-          <a className="nav-link">FAÇA SUA FESTA</a>
+        <NavLink className="nav-link" to="/doces">DOCES</NavLink>
+        <NavLink className="nav-link" to="/bolos">BOLOS</NavLink>
+        <NavLink className="nav-link" to="/salgados">SALGADOS</NavLink>
+        <NavLink className="nav-link" to="/faca-sua-festa">FAÇA SUA FESTA</NavLink>
         </div>
         <NavLink className="nav-link" to="/auth">
         <a className="nav-link">LOGIN</a>
@@ -32,3 +32,4 @@ export function Navigation() {
     </>
   );
 }
+
