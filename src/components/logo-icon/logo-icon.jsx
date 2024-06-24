@@ -1,4 +1,4 @@
-import logoImage from '../../assets/image0_0 esrosa.png';
+import logoImage from '../../assets/Logo-Doce-Delícia.png';
 import './logo-icon.scss'
 
 export function LogoIcon() {

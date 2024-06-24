@@ -9,6 +9,7 @@ import { Salgados } from './router/salgados/salgados';
 import { FacaSuaFesta } from './router/faca-sua-festa/faca-sua-festa';
 import { Navigation } from './router/navigation/navigation';
 import { Shop } from './router/shop/shop';
+import CheckoutPage from './components/checkout-page/CheckoutPage';
 import { CartProvider } from './components/cart-context/CartContext';
 
 export function App() {
@@ -22,7 +23,7 @@ export function App() {
           <Route path="/salgados" element={<Salgados />} />
           <Route path="/faca-sua-festa" element={<FacaSuaFesta />} />
           <Route path='auth' element={<Auth />} />
-          <Route path='checkout' element={{}}/>
+          <Route path='checkout' element={<CheckoutPage />} />
           <Route path='shop/*' element={<Shop/>} />
         </Route>
       </Routes>

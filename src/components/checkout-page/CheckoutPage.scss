@@ -1,0 +1,135 @@
+.checkout-page {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkout-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.checkout-items {
+  margin-top: 20px;
+  flex: 0 0 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.checkout-item img {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.item-removed-button {
+  height: 30px;
+  border: none;
+  background-color: #ff0000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  padding: 5px 10px;
+}
+
+.item-removed-button:hover {
+  background-color: #b90000;
+  color: #fff;
+  border: none;
+}
+
+.item-count-controls {
+  border-radius: 5px;
+  padding: 1px;
+  display: flex;
+  border: 1px solid gray;
+  align-items: center;
+}
+
+.item-count-button {
+  background-color: gray;
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.item-count-button:hover {
+  background-color: #ccc;
+  border: gray;
+}
+
+.item-count-display {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.checkout-summary {
+  flex: 0 0 35%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  margin-left: 20px; /* Espaço entre os itens e o formulário */
+  height: 400px;
+}
+
+.summary-details {
+  margin-bottom: 20px;
+}
+
+.cupom-button{
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.cupom-button:hover {
+  background-color: #ccc;
+  border: gray;
+  color: white;
+}
+
+.checkout-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.checkout-button:hover {
+  background-color: #1d7732;
+  border: #1d7732;
+  color: white;
+}

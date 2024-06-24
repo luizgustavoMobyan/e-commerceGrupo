@@ -1,57 +1,59 @@
 .navigation {
-    height: 70px;
-    width: 100;
-    display: flex;   
-    margin-bottom: 25px;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 35px;
-    
-    .logo-container {
-        height: 100%;
-        width: 350px;
-        padding: 25px;
+  height: 70px;
+  width: 100;
+  display: flex;   
+  margin-bottom: 25px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+  
+  .logo-container {
+      height: 100%;
+      width: 350px;
+      padding: 25px;
 
-        .logo-text-left,
-        .logo-text-right {
-          font-size: 24px;
-          color: pink;
-        }
+      .logo-text-left,
+      .logo-text-right {
+        font-size: 24px;
+        color: pink;
+      }
 
-        .logo-text-left {
-          margin-right: 10px;
-        }
+      .logo-text-left {
+        margin-right: 10px;
+      }
 
-        .logo-text-right {
-          margin-left: 0px;
-        }
+      .logo-text-right {
+        margin-left: 0px;
+      }
+  }
+
+  .nav-links-container {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 100px;
+
+      .nav-link {
+          position: relative;
+          padding: 10px;
+          text-decoration: none;
+          color: black;
+          cursor: pointer;
+      }
+
+      .nav-link:hover {
+        color: pink;
+      }
+  }    
+
+  .nav-link-login {
+    text-decoration: none;
+    color: black;
+
+    .nav-link-login:hover {
+      color: pink;
     }
-
-    .nav-links-container {
-        width: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 100px;
-
-        .nav-link {
-            position: relative;
-            padding: 10px;
-            text-decoration: none;
-            color: black;
-            transition: border-radius 0.5s ease-in-out, box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out;
-            cursor: pointer;
-        }
-        
-        .nav-link:hover {
-            background-color: pink;
-            color: white;
-            border-radius: 10px;
-            box-shadow: 0 0 10px white(0, 0, 0, 0.5);
-            transform: translateY(-5px);
-        }
-
-    }
-
+  }
 }
 

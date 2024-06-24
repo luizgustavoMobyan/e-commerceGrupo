@@ -11,11 +11,9 @@ export function Navigation() {
     <>
       <div className="navigation">
         <div className="logo-container">
-          <span className="logo-text-left">ES</span>
           <NavLink to="/">
           <LogoIcon />
           </NavLink>
-          <span className="logo-text-right">ROSA</span>
         </div>
         <div className="nav-links-container">
         <NavLink className="nav-link" to="/doces">DOCES</NavLink>
@@ -23,13 +21,16 @@ export function Navigation() {
         <NavLink className="nav-link" to="/salgados">SALGADOS</NavLink>
         <NavLink className="nav-link" to="/faca-sua-festa">FAÇA SUA FESTA</NavLink>
         </div>
-        <NavLink className="nav-link" to="/auth">
-        <a className="nav-link">LOGIN</a>
+        <NavLink className="nav-link-login" to="/auth">
+        <a className="nav-link-login">Minha Conta</a>
         </NavLink>
+        <NavLink className="nav-link" to="/checkout">
         <CartIcon className="nav-cart" />
+        </NavLink>
       </div>
       <Outlet/>
     </>
   );
 }
+
 
