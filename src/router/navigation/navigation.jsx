@@ -16,10 +16,10 @@ export function Navigation() {
           </NavLink>
         </div>
         <div className="nav-links-container">
-        <NavLink className="nav-link" to="/doces">DOCES</NavLink>
-        <NavLink className="nav-link" to="/bolos">BOLOS</NavLink>
-        <NavLink className="nav-link" to="/salgados">SALGADOS</NavLink>
-        <NavLink className="nav-link" to="/faca-sua-festa">FAÇA SUA FESTA</NavLink>
+        <NavLink className="nav-link" to="/doces">Doces</NavLink>
+        <NavLink className="nav-link" to="/bolos">Bolos</NavLink>
+        <NavLink className="nav-link" to="/salgados">Salgados</NavLink>
+        <NavLink className="nav-link" to="/faca-sua-festa">Faça sua Festa</NavLink>
         </div>
         <NavLink className="nav-link-login" to="/auth">
         <a className="nav-link-login">Minha Conta</a>

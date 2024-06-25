@@ -96,10 +96,17 @@
   margin-bottom: 20px;
 }
 
+.cupom-desconto {
+  width: 200px;
+  height: 30px;
+  margin-left: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
 .cupom-button{
-  width: 100px;
-  height: 40px;
-  padding: 10px;
+  width: 122px;
+  height: 37px;
   background-color: gray;
   color: white;
   border: none;
@@ -107,8 +114,8 @@
   cursor: pointer;
   transition: background-color 0.3s;
   margin-left: 10px;
-  justify-items: center;
   align-items: center;
+  justify-items: center;
 }
 
 .cupom-button:hover {

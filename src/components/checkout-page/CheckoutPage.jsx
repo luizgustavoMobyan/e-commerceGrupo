@@ -87,7 +87,7 @@ const CheckoutPage = () => {
             <div>
               <label>
                 Código Promocional:
-                <input
+                <input className="cupom-desconto"
                   type="text"
                   value={promoCode}
                   onChange={(e) => setPromoCode(e.target.value)}
@@ -96,8 +96,8 @@ const CheckoutPage = () => {
               <button className="cupom-button" onClick={handleApplyPromoCode}>Inserir</button>
             </div>
             <div>Desconto: R$ {discount.toFixed(2)}</div>
-            <div>Total: R$ 0.00</div>
-            {/* <div>Total: R$ {calculateTotal().toFixed(2)}</div> */}
+            {/* <div>Total: R$ 0.00</div> */}
+            <div>Total: R$ {calculateTotal().toFixed(2)}</div>
           </div>
           <button className="checkout-button">Finalizar Compra</button>
         </div>
